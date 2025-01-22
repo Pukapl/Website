@@ -1,29 +1,56 @@
 .test-class {
-  background-color: cadetblue;
   max-width: fit-content;
 }
 
 .text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
 }
 
 .sidebar {
   float: left;
   max-width: 20%;
   height: 100%;
-  background-color: lightblue;
+  background-color: lightskyblue;
+}
+
+.background {
+  background-color: lightsteelblue;
+  padding: 10px;
+  background-image: url('Media/wetcat.png');
+  /*https://www.w3schools.com/css/img_lights.jpg*/
 }
 
 .centre {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
+  /*border: 3px solid green;*/
   padding: 5px;
+}
+
+.warn {
+  background-color: blueviolet;
+  color: darkred;
+  font-size: 17px;
+  padding: 1px;
+  margin: 2%;
+
+}
+
+.body {
+  background-color: cadetblue;
+  padding: 10px;
 }
 
 .image {
   padding: 10px;
   width: 100%;
   max-width: 150px;
+}
+
+.web-badge {
+  width: 100%;
+  max-width: 100px;
+  padding: 10px;
+  display: inline-block;
 }
