@@ -19,20 +19,19 @@
 .background {
   background-color: lightsteelblue;
   padding: 10px;
-  /*background-image: url('Media/wetcat.png');*/
   /*https://www.w3schools.com/css/img_lights.jpg*/
 }
 
 .centre {
   margin: auto;
-  width: 50%;
+  width: fit-content;
   /*border: 3px solid green;*/
   padding: 5px;
 }
 
 .warn {
   background-color: blueviolet;
-  color: darkred;
+  color: black;
   font-size: 17px;
   padding: 1px;
   margin: 2%;
