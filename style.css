@@ -19,7 +19,7 @@
 .background {
   background-color: lightsteelblue;
   padding: 10px;
-  background-image: url('Media/wetcat.png');
+  /*background-image: url('Media/wetcat.png');*/
   /*https://www.w3schools.com/css/img_lights.jpg*/
 }
 
