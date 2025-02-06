@@ -29,28 +29,42 @@
   padding: 5px;
 }
 
-.warn {
-  background-color: blueviolet;
-  color: black;
-  font-size: 17px;
-  padding: 1px;
-  margin: 2%;
-
-}
-
-.body {
-  background-color: cadetblue;
-  padding: 10px;
-}
-
-.image {
-  padding: 10px;
-  width: 100%;
-  max-width: 150px;
-}
-
 .web-badge {
   width: 100%;
   max-width: 100px;
   padding: 10px;
+}
+
+.sidenav {  /*ty w3schools <3*/
+  /*height: 100%;*/
+  width: 160px;
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: blue;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  /*padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;*/
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
