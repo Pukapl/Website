@@ -1,70 +1,14 @@
-/*TODO: ACTUAL colour scheme and theme :P */
-
-.test-class {
-  max-width: fit-content;
-}
-
 .text {
   font-family: Verdana, sans-serif;
   font-size: 15px;
 }
 
-.sidebar {
-  float: left;
-  max-width: 20%;
-  height: 100%;
-  background-color: lightskyblue;
-}
-
-.background {
-  background-color: lightsteelblue;
-  padding: 10px;
-  /*https://www.w3schools.com/css/img_lights.jpg*/
-}
-
-.centre {
-  margin: auto;
-  width: fit-content;
-  /*border: 3px solid green;*/
-  padding: 5px;
-}
-
-.web-badge {
-  width: 100%;
-  max-width: 100px;
-  padding: 10px;
-}
-
-.sidenav {  /*ty w3schools <3*/
-  /*height: 100%;*/
-  width: 160px;
-  position: fixed;
-  z-index: 1; 
-  top: 0; 
-  left: 0;
-  background-color: blue;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-.sidenav a {
-  /*padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;*/
-  display: inline-block;
+h1 {
   color: black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
 }
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
